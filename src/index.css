@@ -1,0 +1,28 @@
+:root {
+  font-family: Inter, 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+  color: #17241f;
+  background: #f7f7f2;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+
+  --ink: #17241f;
+  --muted: #65706a;
+  --paper: #f7f7f2;
+  --line: #dfe3dc;
+  --accent: #d3f36b;
+  --forest: #203d34;
+  --serif: 'Iowan Old Style', 'Palatino Linotype', 'Noto Serif TC', serif;
+}
+
+* { box-sizing: border-box; }
+html { min-width: 320px; scroll-behavior: smooth; scroll-padding-top: 88px; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+body, button, a { font-family: Inter, 'Noto Sans TC', 'Microsoft JhengHei', sans-serif; }
+button, a { -webkit-tap-highlight-color: transparent; }
+a { color: inherit; }
+::selection { color: var(--ink); background: var(--accent); }
+:focus-visible { outline: 3px solid #6f8a26; outline-offset: 4px; }
