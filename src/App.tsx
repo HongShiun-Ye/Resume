@@ -149,7 +149,7 @@ function App() {
                   <div className={`case-visual case-visual-${caseStudy.number}`} aria-hidden="true">
                     <span className="case-visual-index">CASE / {caseStudy.number}</span>
                     <div className="visual-composition"><span /><span /><span /></div>
-                    <span className="visual-caption">案例示意圖</span>
+                    <span className="visual-caption"></span>
                   </div>
                   <div className="case-content">
                     <div className="case-meta"><span>{caseStudy.category}</span><span>{caseStudy.period}</span></div>

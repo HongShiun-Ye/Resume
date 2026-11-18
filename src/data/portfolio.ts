@@ -24,7 +24,7 @@ export type SkillGroup = {
 
 export const portfolio = {
   name: '葉鴻勳',
-  headline: '中級專員／研發工程師',
+  headline: '研發工程師',
   summary: '主要負責 iOS App 與 Web 開發及維護；與業管單位溝通並釐清需求，將業務需求轉化為功能規劃及資料庫設計。',
   location: '台中市',
   experience: [
