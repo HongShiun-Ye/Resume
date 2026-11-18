@@ -109,7 +109,7 @@ function App() {
             <span className="art-coordinate coordinate-top">FIG. 01 / PORTFOLIO</span>
             <span className="art-coordinate coordinate-bottom">SCROLL TO EXPLORE ↓</span>
           </div>
-          <a className="scroll-cue" href="#experience"><span /> 向下探索</a>
+          <a className="scroll-cue" href="#experience"><span /> 向下探索</a> 
         </section>
 
         <section className="section-wrap content-section experience-section reveal" id="experience" aria-labelledby="experience-title">
