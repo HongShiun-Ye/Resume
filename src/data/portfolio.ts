@@ -58,17 +58,6 @@ export const portfolio = {
   cases: [
     {
       number: '01',
-      title: '行動網銀新版',
-      category: '協作開發',
-      period: '2025~2026',
-      challenge: '配合行動網銀新版上線，將指定的交易與個人化功能移轉至新版服務。',
-      contribution: '與其他夥伴協作，負責黃金、外幣、預約交易及個人化設定等功能。',
-      approach: '依新版網銀的功能規格，負責黃金、外幣、預約交易與個人化設定等前端功能；與團隊及後端協作確認資料格式、操作流程與錯誤情境，完成畫面與 API 串接，並配合測試及上線。',
-      outcome: '新版行動網銀已上線。',
-      skill: 'React、Cordova、Plugin'
-    },
-    {
-      number: '02',
       title: '工作管理平台',
       category: '獨立開發',
       period: '2026',
@@ -79,18 +68,18 @@ export const portfolio = {
       skill: '.Net Core、React'
     },
     {
-      number: '03',
-      title: '會議 App 與 Web 整合',
-      category: 'iOS App／Web 串接',
-      period: '2025',
-      challenge: '會議資料與功能分布於 App 和網頁端，需要讓使用者在平板上完成閱讀與會議相關操作。',
-      contribution: '負責經營會議 App、常董會議 App 與網頁端串接。',
-      approach: '以 WebKit 整合既有網頁內容與 API，並加入 PDF 閱讀及原生標註工具，讓使用者能在 App 內閱讀會議資料並進行標記。',
-      outcome: '常董會議 App 取代大量紙本報告，讓常務董事可透過平板於會前及會議中閱讀資料。',
-      skill: 'Swift、WebKit、PDFKit'
+      number: '02',
+      title: '行動網銀新版',
+      category: '協作開發',
+      period: '2025~2026',
+      challenge: '配合行動網銀新版上線，將指定的交易與個人化功能移轉至新版服務。',
+      contribution: '與其他夥伴協作，負責黃金、外幣、預約交易及個人化設定等功能。',
+      approach: '依新版網銀的功能規格，負責黃金、外幣、預約交易與個人化設定等前端功能；與團隊及後端協作確認資料格式、操作流程與錯誤情境，完成畫面與 API 串接，並配合測試及上線。',
+      outcome: '新版行動網銀已上線。',
+      skill: 'React、Cordova、Plugin'
     },
     {
-      number: '04',
+      number: '03',
       title: '股東印鑑更新管理系統',
       category: '系統開發／流程管理',
       period: '2024',
@@ -99,6 +88,17 @@ export const portfolio = {
       approach: '依照既有作業流程整理申請、核可與放行步驟，讓更新作業可在系統中完成，並保留各階段處理紀錄。',
       outcome: '以系統流程取代紙本申請與人工更新，縮短印鑑資料更新作業所需時間。',
       skill: '.Net Core MVC'
+    },
+    {
+      number: '04',
+      title: '會議 App 與 Web 整合',
+      category: 'iOS App／Web 串接',
+      period: '2025',
+      challenge: '會議資料與功能分布於 App 和網頁端，需要讓使用者在平板上完成閱讀與會議相關操作。',
+      contribution: '負責經營會議 App、常董會議 App 與網頁端串接。',
+      approach: '以 WebKit 整合既有網頁內容與 API，並加入 PDF 閱讀及原生標註工具，讓使用者能在 App 內閱讀會議資料並進行標記。',
+      outcome: '常董會議 App 取代大量紙本報告，讓常務董事可透過平板於會前及會議中閱讀資料。',
+      skill: 'Swift、WebKit、PDFKit'
     },
   ] satisfies CaseStudy[],
   skills: [
