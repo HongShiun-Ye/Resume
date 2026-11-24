@@ -15,6 +15,7 @@ export type CaseStudy = {
   contribution: string
   approach: string
   outcome: string
+  skill: string
 }
 
 export type SkillGroup = {
@@ -59,6 +60,7 @@ export const portfolio = {
       contribution: '與其他夥伴協作，負責黃金、外幣、預約交易及個人化設定等功能。',
       approach: '依新版網銀的功能規格，負責黃金、外幣、預約交易與個人化設定等前端功能；與團隊及後端協作確認資料格式、操作流程與錯誤情境，完成畫面與 API 串接，並配合測試及上線。',
       outcome: '新版行動網銀已上線。',
+      skill: 'React、Cordova、Plugin'
     },
     {
       number: '02',
@@ -69,6 +71,7 @@ export const portfolio = {
       contribution: '獨立開發工作管理平台，依業管單位需求規劃並實作專案與任務管理功能。',
       approach: '將不同的工作日誌與專案追蹤需求整理為集中管理功能，記錄專案、任務執行人、任務狀態與進度回報，並提供專案每月進度變化及經辦任務與工作量查詢報表。',
       outcome: '兩個月內完成業管單位初步規劃並上線使用；上線後依使用者回饋及業管單位新增需求持續優化。',
+      skill: 'ASP.NET Core Web API、React'
     },
     {
       number: '03',
@@ -79,6 +82,7 @@ export const portfolio = {
       contribution: '負責經營會議 App、常董會議 App 與網頁端串接。',
       approach: '以 WebKit 整合既有網頁內容與 API，並加入 PDF 閱讀及原生標註工具，讓使用者能在 App 內閱讀會議資料並進行標記。',
       outcome: '常董會議 App 取代大量紙本報告，讓常務董事可透過平板於會前及會議中閱讀資料。',
+      skill: 'Swift、WebKit、PDFKit'
     },
     {
       number: '04',
@@ -89,6 +93,7 @@ export const portfolio = {
       contribution: '負責系統開發，將紙本申請與人工更新流程轉為線上申請及核可流程。',
       approach: '依照既有作業流程整理申請、核可與放行步驟，讓更新作業可在系統中完成，並保留各階段處理紀錄。',
       outcome: '以系統流程取代紙本申請與人工更新，縮短印鑑資料更新作業所需時間。',
+      skill: 'ASP.NET Core MVC'
     },
   ] satisfies CaseStudy[],
   skills: [

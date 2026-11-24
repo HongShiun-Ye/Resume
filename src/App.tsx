@@ -161,6 +161,7 @@ function App() {
                         <div><dt>負責角色</dt><dd>{caseStudy.contribution}</dd></div>
                         <div><dt>執行方式</dt><dd>{caseStudy.approach}</dd></div>
                         <div><dt>成果與影響</dt><dd>{caseStudy.outcome}</dd></div>
+                        <div><dt>使用技術</dt><dd>{caseStudy.skill}</dd></div>
                       </dl>
                     </details>
                   </div>
