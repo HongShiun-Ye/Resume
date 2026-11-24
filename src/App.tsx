@@ -74,6 +74,7 @@ function App() {
           <a href="#experience" onClick={closeMenu}>經歷</a>
           <a href="#cases" onClick={closeMenu}>案例</a>
           <a href="#skills" onClick={closeMenu}>技能</a>
+          <a href="#interests" onClick={closeMenu}>興趣</a>
           <a className="nav-contact" href="#contact" onClick={closeMenu}>聯絡我 <span aria-hidden="true">↗</span></a>
         </nav>
       </header>
@@ -188,10 +189,38 @@ function App() {
           </div>
         </section>
 
+        <section className="section-wrap content-section interests-section reveal" id="interests" aria-labelledby="interests-title">
+          <div className="section-heading">
+            <p className="eyebrow">04 / BEYOND WORK</p>
+            <h2 id="interests-title">工作之外<span className="heading-period" aria-hidden="true">—</span></h2>
+            <p className="section-intro">下班後用運動切換心情，週末則留一點時間給戶外與山徑。</p>
+          </div>
+          <div className="interests-layout">
+            <div className="interest-sports">
+              <p className="interest-label">AFTER WORK / 運動日常</p>
+              <div className="interest-tags">
+                {portfolio.interests.sports.map((sport, index) => (
+                  <span className="interest-tag" key={sport}><span>0{index + 1}</span>{sport}</span>
+                ))}
+              </div>
+              <p className="interest-note">打羽球、排球、游泳或抱石，讓每個平日晚上的運動都有不同節奏。</p>
+            </div>
+            <article className="interest-outdoors">
+              <span className="outdoors-index">WEEKEND / 戶外時間</span>
+              <div className="outdoors-art" aria-hidden="true"><span /><span /><span /></div>
+              <div className="outdoors-copy">
+                <h3>從大坑步道，走向更高的山</h3>
+                <p>有空時會到大坑步道走走，最近也開始對爬山感興趣，計畫前往合歡北峰。</p>
+              </div>
+              <span className="outdoors-coordinate">TAICHUNG · OUTDOORS</span>
+            </article>
+          </div>
+        </section>
+
         <section className="contact-section reveal" id="contact" aria-labelledby="contact-title">
           <div className="section-wrap contact-inner">
             <div className="contact-copy">
-              <p className="eyebrow">04 / GET IN TOUCH</p>
+              <p className="eyebrow">05 / GET IN TOUCH</p>
               <h2 id="contact-title">期待進一步<br /><span>交流合作。</span></h2>
               <p>歡迎透過以下方式聯絡，或查看完整履歷與專業資料。</p>
             </div>

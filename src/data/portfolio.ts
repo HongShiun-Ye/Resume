@@ -23,6 +23,10 @@ export type SkillGroup = {
   items: string[]
 }
 
+export type Interests = {
+  sports: string[]
+}
+
 export const portfolio = {
   name: '葉鴻勳',
   headline: '研發工程師',
@@ -37,7 +41,8 @@ export const portfolio = {
       responsibilities: [
         '獨立開發｜工作管理平台',
         '獨立開發｜股東印鑑更新管理系統',
-        '協作開發｜行動網銀',        
+        '協作開發｜行動網銀',
+        '維護｜後臺權限管理系統',
         '維護｜行內傳真',
         '維護｜USB 寫入管理系統',
         '維護｜印鑑系統',        
@@ -71,7 +76,7 @@ export const portfolio = {
       contribution: '獨立開發工作管理平台，依業管單位需求規劃並實作專案與任務管理功能。',
       approach: '將不同的工作日誌與專案追蹤需求整理為集中管理功能，記錄專案、任務執行人、任務狀態與進度回報，並提供專案每月進度變化及經辦任務與工作量查詢報表。',
       outcome: '兩個月內完成業管單位初步規劃並上線使用；上線後依使用者回饋及業管單位新增需求持續優化。',
-      skill: 'ASP.NET Core Web API、React'
+      skill: '.Net Core、React'
     },
     {
       number: '03',
@@ -93,7 +98,7 @@ export const portfolio = {
       contribution: '負責系統開發，將紙本申請與人工更新流程轉為線上申請及核可流程。',
       approach: '依照既有作業流程整理申請、核可與放行步驟，讓更新作業可在系統中完成，並保留各階段處理紀錄。',
       outcome: '以系統流程取代紙本申請與人工更新，縮短印鑑資料更新作業所需時間。',
-      skill: 'ASP.NET Core MVC'
+      skill: '.Net Core MVC'
     },
   ] satisfies CaseStudy[],
   skills: [
@@ -148,6 +153,9 @@ export const portfolio = {
       ],
     },
   ] satisfies SkillGroup[],
+  interests: {
+    sports: ['羽球', '排球', '游泳', '抱石'],
+  } satisfies Interests,
   contact: [
     { label: '電子郵件', value: 'honghun0622@gmail.com', href: '' },    
   ],
