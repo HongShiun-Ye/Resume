@@ -30,14 +30,14 @@ export type Interests = {
 export const portfolio = {
   name: '葉鴻勳',
   headline: '研發工程師',
-  summary: '主要負責 iOS App 與 Web 開發及維護；與業管單位溝通並釐清需求，將業務需求轉化為功能規劃及資料庫設計。',
+  summary: '主要負責 Web 與 iOS App 開發及維護；與業管單位溝通並釐清需求，將業務需求轉化為功能規劃及資料庫設計。',
   location: '台中市',
   experience: [
     {
       organization: '三信商業銀行',
       role: '中級專員／研發工程師',
       period: '2023/10-至今',
-      overview: '負責 iOS App 與 Web 系統的開發及維護，與業管單位確認需求並實作功能；曾獨立開發工作管理平台及股東印鑑更新管理系統，並參與行動網銀新版功能開發。',
+      overview: '負責 Web 與 iOS App 系統的開發及維護，與業管單位確認需求並實作功能；曾獨立開發工作管理平台及股東印鑑更新管理系統，並參與行動網銀新版功能開發。',
       responsibilities: [
         '獨立開發｜工作管理平台',
         '獨立開發｜股東印鑑更新管理系統',
