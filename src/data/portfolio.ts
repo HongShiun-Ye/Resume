@@ -101,19 +101,9 @@ export const portfolio = {
       skill: 'Swift、WebKit、PDFKit'
     },
   ] satisfies CaseStudy[],
-  skills: [
+  skills: [    
     {
-      category: 'iOS 開發',
-      items: [
-        'iOS App 開發與維護',
-        'iOS App 企業憑證年度更新',
-        'Swift',
-        'UIKit',
-        'SwiftUI'
-      ],
-    },
-    {
-      category: 'Web 前端',
+      category: 'Web',
       items: [
         'React',
         'JavaScript',
@@ -130,6 +120,16 @@ export const portfolio = {
         '前後端資料介接',
         'REST API 串接',
         'JSON 資料處理',
+      ],
+    },
+    {
+      category: 'iOS 開發',
+      items: [
+        'iOS App 開發與維護',
+        'iOS App 企業憑證年度更新',
+        'Swift',
+        'UIKit',
+        'SwiftUI'
       ],
     },
     {
