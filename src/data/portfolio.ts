@@ -20,7 +20,9 @@ export type CaseStudy = {
 
 export type SkillGroup = {
   category: string
+  summary: string
   items: string[]
+  evidence: string
 }
 
 export type Interests = {
@@ -101,56 +103,43 @@ export const portfolio = {
       skill: 'Swift、WebKit、PDFKit'
     },
   ] satisfies CaseStudy[],
-  skills: [    
+  skills: [
     {
-      category: 'Web',
+      category: '需求釐清與流程規劃',
+      summary: '與業管單位確認作業情境，整理需求、角色權限與核可步驟，轉化為可實作的功能。',
       items: [
-        'React',
-        'JavaScript',
-        'HTML',
-        'CSS',
-        '響應式網頁設計',
-      ],
-    },
-    {
-      category: 'API 與系統整合',
-      items: [
-        'API 串接',
-        'App 與 Web 整合',
-        '前後端資料介接',
-        'REST API 串接',
-        'JSON 資料處理',
-      ],
-    },
-    {
-      category: 'iOS 開發',
-      items: [
-        'iOS App 開發與維護',
-        'iOS App 企業憑證年度更新',
-        'Swift',
-        'UIKit',
-        'SwiftUI'
-      ],
-    },
-    {
-      category: '系統規劃與開發',
-      items: [
-        '需求訪談與需求釐清',
-        '功能規劃',
-        '專案與任務管理流程',
+        '需求訪談與釐清',
+        '功能與流程規劃',
         '角色權限設計',
-        '核可、退回流程',
+        '核可與退回流程',
         '資料庫功能規劃',
       ],
+      evidence: '工作管理平台・股東印鑑更新管理系統',
     },
     {
-      category: '開發協作與維護',
+      category: 'Web 與 iOS 功能開發',
+      summary: '參與 Web 與 iOS App 新功能開發及既有功能維護，依需求完成介面與功能實作。',
       items: [
-        '跨單位溝通',
-        '使用者回饋與功能迭代',
+        'React',
+        '.NET Core',
+        'JavaScript',
+        'Swift',
+        'UIKit／SwiftUI',
+      ],
+      evidence: '工作管理平台・行動網銀新版・iOS App',
+    },
+    {
+      category: '系統整合與持續維護',
+      summary: '整合 API、App 與 Web 功能，並配合測試、上線及使用者回饋持續改善。',
+      items: [
+        'API／REST API 串接',
+        'JSON 資料處理',
+        'App 與 Web 整合',
         '系統測試與上線支援',
         '既有系統維護',
+        '使用者回饋與功能迭代',
       ],
+      evidence: '行動網銀新版・會議 App 與 Web 整合',
     },
   ] satisfies SkillGroup[],
   interests: {
